@@ -44,5 +44,5 @@ let developerSchema = mongoose.Schema({
     }
 })
 
-let developerModel=mongoose.model("Developer",developerSchema)
+let developerModel=mongoose.model("developer",developerSchema)
 module.exports=developerModel;
