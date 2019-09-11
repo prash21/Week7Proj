@@ -10,7 +10,7 @@ const url = 'mongodb://localhost:27017/week7';
 let mongoose=require('mongoose')
 // Import the models here since we exported them in the schema file.
 let Developer=require('./models/developer')
-let Task =require('./models/Task')
+let Task =require('./models/task')
 
 // open db connection
 mongoose.connect("mongodb://localhost:27017/Week7Lab", function(err){
